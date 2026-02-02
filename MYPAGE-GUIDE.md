@@ -107,17 +107,3 @@
 | **Service** | 동일 `MyPageService` / `MyPageServiceImpl` | 동일 |
 
 ---
-
-## 4. 상세 문서 참고
-
-- **프로필 조회·수정·비밀번호·포인트·기프티콘** 단계별 흐름  
-  → **PROFILE-EDIT-FLOW.md**
-- **프로필 조회·수정** 구현 관점 정리  
-  → **PROFILE-BLOG-POST.md**
-- **백엔드 계층, API 요약, DTO·파일 역할**  
-  → **BACKEND-FLOW-GUIDE.md** (정보수정·마이페이지 관련 섹션)
-- **API 테스트 예시**  
-  → `src/test/http/mypage-api.http` (직원용 URL 예시 확장 가능)
-
-이 가이드는 역할별로 “어디서 무엇을 쓰는지”만 정리한 것이므로,  
-실제 요청/응답 형식·에러 처리·프론트 연동은 위 docs와 코드를 함께 보시면 됩니다.
